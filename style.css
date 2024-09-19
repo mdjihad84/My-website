@@ -15,9 +15,7 @@
     color: #fff;
     margin: 8px 0 0;
     margin-top: 20px;
-}
-.fa-solid {
-    
+    margin-left: 35px;
 }
 .phone-number p {
     font-size: 14px;
@@ -35,6 +33,7 @@
 }
 .socila-area ul {
     list-style: none;
+    margin-right: -55px;
 }
 .fa-solid {
     padding-right: 10px;
@@ -65,11 +64,12 @@
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 80px;
+    margin-left: 120px;
 }
 .navigation ul {
     list-style: none;
     display: inline-flex;
+    margin-right: 40px;
 }
 .navigation ul a {
     text-decoration: none;
@@ -83,10 +83,12 @@
 .container {
     display: flex;
     background-color: #f9ebea;
+    justify-content: space-around;
+    margin-left: -130px;
 }
 .hero-left {
     margin-left: 80px;
-    margin-top: 100px;
+    margin-top: 125px;
 }
 .hero-left h5 {
     font-size: 20px;
@@ -117,14 +119,14 @@
     text-decoration: none;
 }
 .hero-img img {
-    margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 30px;
+    width: 375px;
+    height: 500px;
 }
 
 /* about section */
 .about-title {
     text-align: center;
-
 }
 .about-title h3 {
     font-size: 60px;
@@ -159,7 +161,7 @@
     font-size: 45px;
     font-weight: 900;
     color: #11184f;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-top: -13px;
 }
 .about-card h6 {
@@ -237,8 +239,17 @@
     width: 350px;
     margin-bottom: 35px;
 }
-.service-card i {
-    color: #eb7966;
+.service-card:hover{
+    background-color: #11184f;
+    border: 2px solid white;
+}
+.service-card:hover h4{
+    color: white;
+}
+.service-card:hover p,.service-card:hover i{
+    color: white;
+}
+.service-card{
     font-size: 45px;
 }
 .service-card h4 {
@@ -253,7 +264,12 @@
     font-weight: 400;
     width: 320px;
 }
+
 /* project section */
+.project-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .project-title {
     text-align: center;
 }
@@ -270,9 +286,44 @@
     margin-top: 0;
     text-align: center;
 }
-.Project-images img {
-
+.project-img1 {
+    height: 575px;
+    width: 735px;
+    margin-right: 10px;
 }
+.project-img2 {
+    width: 374px;
+    height: 700px;
+    margin-right: 58px;
+}
+.project-img3 {
+    width: 374px;
+    height: 700px;
+    margin-right: 58px;
+    margin-left: -371px;
+}
+.project-img4 {
+    height: 575px;
+    width: 735px;
+    margin-top: -120px;
+    margin-right: 10px;
+}
+.project-img5 {
+    width: 754px;
+    margin-top: 5px;
+    height: 450px;
+}
+.project-btn {
+    background: #eb7966;
+    color: #fff;
+    display: inline-block;
+    padding: 12px 25px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
 /* blog section */
 .blog-container {
     background-color: #f9ebea;
@@ -316,6 +367,7 @@
 .blog-card p {
     width: 340px;
     padding-left: 20px;
+    margin-top: 8px;
 }
 .blog-btn {
     background: #eb7966;
@@ -328,6 +380,7 @@
     padding-left: 20px;
     text-decoration: none;
 }
+
 /* contact section */
 .contact-left {
     display: flex;
@@ -404,6 +457,7 @@
     font-weight: 400;
     padding: 15px;
 }
+
 /* footer section */
 .footer-contain {
     display: flex;
